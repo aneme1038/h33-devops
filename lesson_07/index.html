@@ -22,10 +22,10 @@
 
         <div class="index">
             <h3>Index</h3>
-            <p><button id="oak">ak</button></p>
+            <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
             <p><button id="rosewood">Rosewood</button></p>
-            <p><button id="Palmtree">Palmtree</button></p>
+            <p><button id="palm">Palmtree</button></p>
 
         </div>
         <div class="content">
@@ -59,9 +59,13 @@
 
 
         })
-        $("#rose").click(function(){
+        $("#rosewood").click(function(){
             $("#i_content").attr("src","rosewood_content.html");
-            $("#i_summary").attr("src","rosewood.html");
+            $("#i_summary").attr("src","rosewood_summary.html");
+        })
+        $("#palm").click(function(){
+            $("#i_content").attr("src","palmtree_content.html");
+            $("#i_summary").attr("src","palmtree_summary.html");
         })
 
         /* This will not be merged !  */
