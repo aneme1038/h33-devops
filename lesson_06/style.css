@@ -96,6 +96,7 @@ a {
 .team-members{
   display:flex;
   justify-content:center;
+  flex-wrap: wrap;
 }
 
 .member{
@@ -111,6 +112,8 @@ a {
 
 .member-pic{
   height: 200px;
+  max-width: 100%;
+  
 }
 
 @media (max-width: 1000px){
@@ -123,4 +126,12 @@ a {
  }
 
 
- 
+ .container-m{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 200px;         
+  border: 1px solid black;
+  background-color:#7594ec;
+  border-radius: 15px;
+ }
